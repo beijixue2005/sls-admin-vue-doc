@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+<script>
+  window.$docsify = {
+    name: '',
+    repo: 'sls-admin/sls-admin-vue',
+    loadNavbar: true,
+    loadSidebar: true,
+    subMaxLevel: 2,
+    // 完整配置参数
+    search: {
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      paths: [], // or 'auto'
+      placeholder: '搜索',
+
+      // 支持本地化
+      // placeholder: {
+      //   '/zh-cn/': '搜索',
+      //   '/': 'Search'
+      // },
+
+      noData: '没有找到您要搜索的结果!',
+
+      // 支持本地化
+      // noData: {
+      //   '/zh-cn/': '没有找到您要搜索的结果',
+      //   '/': 'No Results'
+      // },
+
+      // 搜索标题的最大程级, 1 - 6
+      depth: 2
+    }
+  }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "sls-admin-vue-doc",
+  "version": "1.0.0",
+  "description": "## 构建 #### master [![Build Status](https://travis-ci.org/sailengsi/sls-admin.svg?branch=master)](https://travis-ci.org/sailengsi/sls-admin)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "docsify-cli": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "./node_modules/docsify-cli/bin/docsify serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:sls-admin/sls-admin-vue-doc.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
